@@ -33,5 +33,13 @@
     <Compile Include="text.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".github\hacs.json" />
+    <Content Include=".github\workflows\hassfest.yaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".github\" />
+    <Folder Include=".github\workflows\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
